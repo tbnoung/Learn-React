@@ -9,13 +9,13 @@ import getVisibleExpense from './selectors/expenses'
 import configureStore from './store/configureStore'
 import AppRouter from './routers/AppRouter'
 const store = configureStore()
-store.dispatch(addExpense({ description: "Water bill", amount: 4555 }))
-store.dispatch(addExpense({ description: "Rent", amount: 10100 }));
-store.dispatch(addExpense({ description: "Gas bill" }));
+// store.dispatch(addExpense({ description: "Water bill", amount: 4555 }))
+// store.dispatch(addExpense({ description: "Rent", amount: 10100 }));
+// store.dispatch(addExpense({ description: "Gas bill" }));
 // store.dispatch(setTextFilter('bill'))
-const state = store.getState()
-const VisibleExpense = getVisibleExpense(state.expenses, state.filters)
-console.log(VisibleExpense);
+// const state = store.getState()
+// const VisibleExpense = getVisibleExpense(state.expenses, state.filters)
+// console.log(VisibleExpense);
 
 
 
